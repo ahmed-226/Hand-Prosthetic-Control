@@ -27,13 +27,9 @@
 - [Key Results](#-key-results)
 - [Architecture](#-architecture)
 - [Dataset](#-dataset)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
 - [Unity Integration](#-unity-integration)
 - [Results](#-results)
 - [Limitations & Future Work](#-limitations--future-work)
-- [Citation](#-citation)
-- [Team](#-team)
 
 ---
 
@@ -42,6 +38,8 @@
 This project presents a **myoelectric prosthetic hand control system** that interprets surface electromyography (sEMG) signals to recognize **11 distinct hand and wrist gestures** in real time. Predicted gestures are streamed to a **Unity-based 3D prosthetic hand simulation** via kinematic bone mapping.
 
 We propose a **hybrid CNN-Transformer architecture** trained on the publicly available [3DC Dataset](https://github.com/LibEMG/3DCDataset), improving upon the ADANN baseline with a 500 ms sliding window and channel-specific normalization.
+
+**Demo**: [![Demo Video](Assets/demo.png)](https://drive.google.com/file/d/1fEYr8LBBDrCduhhFAqyDoso9D9jFGvww/view?usp=sharing)
 
 <!-- 
   📸 SUGGESTED IMAGE: System overview diagram showing the full pipeline:
